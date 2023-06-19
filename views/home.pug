@@ -1,0 +1,40 @@
+extends base.pug
+block scripts
+     script(src='/static/index.js')
+block style 
+             style
+                include ../static/style.css
+block content
+     section#introSection 
+        div  Welcome to NEO DANCE ACADEMY!
+        div.small  Create. Dance. Live.
+     section#missionSection 
+            h2 Our Mission 
+            div.card
+                 h3 Dance Like there is No tomorrow
+                    div.card-box
+                        div.card-img 
+                             img(src="/static/mission4.png")
+                        div.card-content 
+                         p This is the Best Dance Academy of Area
+            div.card 
+               h3 Dance is an Art 
+                  div.card-box
+                      div.card-img
+                          img(src="/static/Dance.png")
+                      div.card-content 
+                         p This is the Best Dance Academy of Area
+            div.card 
+               h3 Live Your Passion
+                  div.card-box
+                      div.card-img
+                           img(src="/static/dancee.png")
+                      div.card-content 
+                         p This is the Best Dance Academy of Area
+
+     section#SponsorsSection      
+            h2 Our Sponsors 
+            div#sponsors  
+                img(src="/static/spon.png", alt="Sponsor Image", Class="spImage")
+                img(src="/static/spon2.png", alt="Sponsor Image", Class="spImage")
+                img(src="/static/spon3.jpg", alt="Sponsor Image", Class="spImage")                                     

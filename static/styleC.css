@@ -1,0 +1,52 @@
+@import url('https://fonts.google.com/specimen/Roboto');
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+h1{
+    text-align: center;
+    margin: 12px 0;
+    font-weight: bold;
+
+}
+.container h1{
+    font-weight: bold;
+    font-family: Roboto;
+}
+.container{
+    
+    margin: 43px 0;
+}
+.Myform{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+
+}
+.myInput{
+    outline: none;
+    font-style: italic;
+    font-weight: bold;
+    width: 40%;
+    padding: 9px;
+    margin: 8px;
+    font-size: 16px;
+    border-radius: 20px;
+    border-color: rgb(3, 17, 75);
+    
+
+}
+.btn{
+    padding: 12px 16px;
+    font-weight: bold;
+    border-radius: 30px;
+    background-color: rgb(10, 10, 78);
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+    outline: none;
+}

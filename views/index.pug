@@ -1,0 +1,64 @@
+//- index.pug
+doctype html
+html
+  head
+    style
+      include ../static/style.css
+  body
+    nav#navbar
+        ul
+           div#logo
+              img(src="/static/logo.png")
+              |HDA
+           li #[a(href="/") Home ]
+           li #[a(href="/") About ]
+           li #[a(href="/") Join Now] 
+           li #[a(href="/") Class Service] 
+           li #[a(href="/") Contact Us ]
+
+section#introSection 
+        div  Welcome to NEO DANCE ACADEMY!
+        div.small  Create. Dance. Live.
+
+
+section#missionSection 
+     h2 Our Mission 
+     div.card 
+         h3 Dance Like there is No tomorrow
+            div.card-box
+                div.card-img
+                     img(src="/static/mission4.png") 
+     
+                div.card-content
+                 p This is the Best Dance Academy of Area 
+     
+     
+     
+     div.card 
+         h3 Dance is an Art 
+            div.card-box
+                div.card-img
+                     img(src="/static/Dance.png") 
+     
+                div.card-content
+                 p This is the Best Dance Academy of Area 
+         
+     div.card 
+         h3 Live Your Passion
+            div.card-box
+                div.card-img
+                     img(src="/static/dancee.png") 
+     
+                div.card-content
+                 p This is the Best Dance Academy of Area 
+
+section#SponsorsSection      
+        h2 Our Sponsors 
+        div#sponsors
+            img(src="/static/spon.png", alt="Sponsor Image", Class="spImage")
+            img(src="/static/spon2.png", alt="Sponsor Image", Class="spImage")
+            img(src="/static/spon3.jpg", alt="Sponsor Image", Class="spImage")
+footer#footer 
+       |Copyright 2023© NeoDanceAcademy.com All Right Reserved
+script
+      include ../static/index.js
